@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Simulador de Traficante</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Intro.jpeg" alt="">
+            <p>Você é um traficante chamado Pedrinho da Bike, um traficante famoso, com um grande número de "seguidores" (vulgo drogados). Você decide abrir uma nova boca de fumo. Onde você irá abrir?</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">São Paulo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você chega no Rio de Janeiro e sobe o morro para chegar em uma das favelas para iniciar o seu projeto.</p>
+            <button class="btn-proximo" data-proximo="3">Conversar com moradores para obter informações sobre possíveis rivais.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir, pois não quer levar tiro.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao chegar em São Paulo, você começa a tossir por causa da poluição e adquire tuberculose</p>
+            <button class="btn-proximo" data-proximo="5">Chorar, pois não tem dinheiro para pagar por um apartamento (OBS: Ninguém tem)</button>
+            <button class="btn-proximo" data-proximo="6">Ir para a Liberdade instaurar a sua boca de fumo.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do morro, dentro da favela, você conversa com um "morador", mas quando cita sobre criar uma boca de fumo, você descobre que ele é um traficante e ele puxa uma varinha mágica transformadora!</p>
+            <button class="btn-proximo" data-proximo="7">Oferecer a sua mãe pra ele mudar de opinião.
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/Dino.png" alt="FINAL RUIM: DE VOLTA AO LAR">
+            <p>Você decide que não vale a pena abrir uma boca no Rio de Janeiro e volta para o Acre, pois precisa alimentar os seus dinossauros.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Enquanto você estava chorando no meio da rua devido à inflação, um João-de-Barro surge e lhe oferece uma casinha. Você aceita, pois já está cansado de viver como humano.
+            <button class="btn-proximo" data-proximo="7">Virar um pássaro tatakae</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Chegando na Liberdade, você decide criar uma boca de fumo, mas logo se sente intimidado pelos otakus que estão pela área, afinal, ser cringe tem limite. Acho melhor você mudar de plano.</p>
+            <button class="btn-proximo" data-proximo="8">Criar boca de fumo no Rio Tietê.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você virou um pombo! Parabéns!</p>
+            <button class="btn-proximo" data-proximo="9">Cagar na cabeça de um trabalhador honesto</button>
+            <button class="btn-proximo" data-proximo="10">Roubar o pão que uma velhinha está segurando</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Chegando no Rio Tietê, depois de quase se matar devido ao mau cheiro, você cria uma boca de fumo. Repentinamente, surge algo do rio! Um mago aparece e te transforma em um pombo!</p>
+            <button class="btn-proximo" data-proximo="7">Pru pru?</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Como você é um tremendo de um fdp, enquanto você estava voando, você avista um trabalhador CLT e decide fazê-lo ainda mais infeliz. Você caga na cabeça dele e de repente, ele puxa um estilingue!</p>
+            <button class="btn-proximo" data-proximo="11">Sair "correndo" depois da merda que você fez(literalmente)</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você tenta roubar uma velha aparentemente indefesa, mas ao tentar pegar o pão, ela te dá um soco e você acaba voltando à sua forma humana.</p>
+            <button class="btn-proximo" data-proximo="12">Correr pela sua vida.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/Pombo.png" alt="FINAL BOM: POMBO ENDING">
+            <p>Você passa o resto dos seus dias como um pombo, sendo desgraçado. Você caga nos pertences e nas cabeças das pessoas, come lixo, espalha doenças e vive como se a vida fosse um baile funk. Espero que esteja feliz com isso.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você percebe que nunca poderá arranjar um apartamento em São Paulo. Aceita o seu destino?</p>
+            <button class="btn-proximo" data-proximo="13">Aceito.</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/Bluezão.png" alt="FINAL SECRETO: OGRO ENDING">
+            <p>Pobre, você se muda para o Rio de Janeiro e começa a dividir aluguel com um ogro chamado Bluezão. A sua vida é um inferno e você está cada dia mais perto de se matar.</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
